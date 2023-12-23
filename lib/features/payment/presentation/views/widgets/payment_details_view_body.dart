@@ -43,7 +43,7 @@ class _PaymentDetailsViewBodyState extends State<PaymentDetailsViewBody> {
                     } else {
                       Navigator.of(context)
                           .push(MaterialPageRoute(builder: (context) {
-                        return const ThankYouView() ;
+                        return const ThankYouView();
                       }));
                       autovalidateMode = AutovalidateMode.always;
                       setState(() {});

@@ -12,6 +12,4 @@ class CartView extends StatelessWidget {
       body: const CartViewBody(),
     );
   }
-
-  
 }
